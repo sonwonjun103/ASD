@@ -16,6 +16,7 @@ from utils.seed import seed_everything
 from utils.parser import set_parser
 from utils.transform import get_aug
 
+# 바꾸기
 def main(args):
     device = args.device if torch.cuda.is_available() else 'cpu'
     
